@@ -1,0 +1,3374 @@
+{
+  "meta": {
+    "project": "Bruchou & Funes de Rioja",
+    "page": "Nuestro equipo / Profesionales",
+    "notes": [
+      "Los campos profileUrl e image quedan en null porque el listado público expuesto en texto no devuelve de forma confiable las URLs exactas de perfil ni de imagen.",
+      "El ID de categoría comite-ejecutivo corresponde al tab visible Consejo de Administración.",
+      "Los nombres y roles se extrajeron de los listados públicos de las cuatro categorías indicadas.",
+      "profilePathCandidate es una ruta derivada automáticamente desde el nombre; no debe tratarse como URL verificada porque algunos perfiles reales usan sufijos como -2."
+    ]
+  },
+  "categories": [
+    {
+      "id": "profesionales",
+      "label": "Profesionales",
+      "sourceUrl": "https://bruchoufunes.com/profesionales/?category=profesionales#tabs",
+      "layoutVariant": "compact-list",
+      "count": 177
+    },
+    {
+      "id": "lider-de-practica",
+      "label": "Líderes de Práctica",
+      "sourceUrl": "https://bruchoufunes.com/profesionales/?category=lider-de-practica#tabs",
+      "layoutVariant": "compact-list",
+      "count": 53
+    },
+    {
+      "id": "comite-ejecutivo",
+      "label": "Consejo de Administración",
+      "sourceUrl": "https://bruchoufunes.com/profesionales/?category=comite-ejecutivo#tabs",
+      "layoutVariant": "featured-card-grid",
+      "count": 4
+    },
+    {
+      "id": "directorio",
+      "label": "Directorio",
+      "sourceUrl": "https://bruchoufunes.com/profesionales/?category=directorio#tabs",
+      "layoutVariant": "featured-card-grid",
+      "count": 10
+    }
+  ],
+  "professionals": [
+    {
+      "id": "aguilar-josue-antu",
+      "name": "Aguilar Josué Antu",
+      "displayName": "Aguilar Josué Antu",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/aguilar-josue-antu.jpg",
+      "imageAlt": "Foto de Aguilar Josué Antu",
+      "profilePathCandidate": "/profesionales/aguilar-josue-antu/"
+    },
+    {
+      "id": "albinati-celina",
+      "name": "Albinati Celina",
+      "displayName": "Albinati Celina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/albinati-celina.jpg",
+      "imageAlt": "Foto de Albinati Celina",
+      "profilePathCandidate": "/profesionales/albinati-celina/"
+    },
+    {
+      "id": "alfaro-maria-victoria",
+      "name": "Alfaro María Victoria",
+      "displayName": "Alfaro María Victoria",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/alfaro-maria-victoria.jpg",
+      "imageAlt": "Foto de Alfaro María Victoria",
+      "profilePathCandidate": "/profesionales/alfaro-maria-victoria/"
+    },
+    {
+      "id": "angelico-florencia",
+      "name": "Angélico Florencia",
+      "displayName": "Angélico Florencia",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/angelico-florencia.jpg",
+      "imageAlt": "Foto de Angélico Florencia",
+      "profilePathCandidate": "/profesionales/angelico-florencia/"
+    },
+    {
+      "id": "arbeleche-sergio",
+      "name": "Arbeleche Sergio",
+      "displayName": "Arbeleche Sergio",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/arbeleche-sergio.jpg",
+      "imageAlt": "Foto de Arbeleche Sergio",
+      "profilePathCandidate": "/profesionales/arbeleche-sergio/"
+    },
+    {
+      "id": "areco-horacio-jose",
+      "name": "Areco Horacio José",
+      "displayName": "Areco Horacio José",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/areco-horacio-jose.jpg",
+      "imageAlt": "Foto de Areco Horacio José",
+      "profilePathCandidate": "/profesionales/areco-horacio-jose/"
+    },
+    {
+      "id": "arguello-bavio-ernesto-fidel",
+      "name": "Argüello Bavio Ernesto Fidel",
+      "displayName": "Argüello Bavio Ernesto Fidel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/arguello-bavio-ernesto-fidel.jpg",
+      "imageAlt": "Foto de Argüello Bavio Ernesto Fidel",
+      "profilePathCandidate": "/profesionales/arguello-bavio-ernesto-fidel/"
+    },
+    {
+      "id": "arraraz-luciana-ines",
+      "name": "Arraraz Luciana Inés",
+      "displayName": "Arraraz Luciana Inés",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/arraraz-luciana-ines.jpg",
+      "imageAlt": "Foto de Arraraz Luciana Inés",
+      "profilePathCandidate": "/profesionales/arraraz-luciana-ines/"
+    },
+    {
+      "id": "bacigalupo-maria-laura",
+      "name": "Bacigalupo María Laura",
+      "displayName": "Bacigalupo María Laura",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/bacigalupo-maria-laura.jpg",
+      "imageAlt": "Foto de Bacigalupo María Laura",
+      "profilePathCandidate": "/profesionales/bacigalupo-maria-laura/"
+    },
+    {
+      "id": "balbi-santiago-pedro",
+      "name": "Balbi Santiago Pedro",
+      "displayName": "Balbi Santiago Pedro",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/balbi-santiago-pedro.jpg",
+      "imageAlt": "Foto de Balbi Santiago Pedro",
+      "profilePathCandidate": "/profesionales/balbi-santiago-pedro/"
+    },
+    {
+      "id": "baldino-sofia",
+      "name": "Baldino Sofía",
+      "displayName": "Baldino Sofía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/baldino-sofia.jpg",
+      "imageAlt": "Foto de Baldino Sofía",
+      "profilePathCandidate": "/profesionales/baldino-sofia/"
+    },
+    {
+      "id": "barbieri-pablo-jose",
+      "name": "Barbieri Pablo José",
+      "displayName": "Barbieri Pablo José",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/barbieri-pablo-jose.jpg",
+      "imageAlt": "Foto de Barbieri Pablo José",
+      "profilePathCandidate": "/profesionales/barbieri-pablo-jose/"
+    },
+    {
+      "id": "barrientos-alejandro",
+      "name": "Barrientos Alejandro",
+      "displayName": "Barrientos Alejandro",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/barrientos-alejandro.jpg",
+      "imageAlt": "Foto de Barrientos Alejandro",
+      "profilePathCandidate": "/profesionales/barrientos-alejandro/"
+    },
+    {
+      "id": "basch-fernando",
+      "name": "Basch Fernando",
+      "displayName": "Basch Fernando",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/basch-fernando.jpg",
+      "imageAlt": "Foto de Basch Fernando",
+      "profilePathCandidate": "/profesionales/basch-fernando/"
+    },
+    {
+      "id": "basualdo-martin",
+      "name": "Basualdo Martín",
+      "displayName": "Basualdo Martín",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/basualdo-martin.jpg",
+      "imageAlt": "Foto de Basualdo Martín",
+      "profilePathCandidate": "/profesionales/basualdo-martin/"
+    },
+    {
+      "id": "battaglia-analia-r",
+      "name": "Battaglia Analía R.",
+      "displayName": "Battaglia Analía R.",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/battaglia-analia-r.jpg",
+      "imageAlt": "Foto de Battaglia Analía R.",
+      "profilePathCandidate": "/profesionales/battaglia-analia-r/"
+    },
+    {
+      "id": "bazan-jose-maria",
+      "name": "Bazán José María",
+      "displayName": "Bazán José María",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/bazan-jose-maria.jpg",
+      "imageAlt": "Foto de Bazán José María",
+      "profilePathCandidate": "/profesionales/bazan-jose-maria/"
+    },
+    {
+      "id": "belusci-leandro-exequiel",
+      "name": "Belusci Leandro Exequiel",
+      "displayName": "Belusci Leandro Exequiel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/belusci-leandro-exequiel.jpg",
+      "imageAlt": "Foto de Belusci Leandro Exequiel",
+      "profilePathCandidate": "/profesionales/belusci-leandro-exequiel/"
+    },
+    {
+      "id": "beretervide-martin",
+      "name": "Beretervide Martín",
+      "displayName": "Beretervide Martín",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/beretervide-martin.jpg",
+      "imageAlt": "Foto de Beretervide Martín",
+      "profilePathCandidate": "/profesionales/beretervide-martin/"
+    },
+    {
+      "id": "bisbal-santiago",
+      "name": "Bisbal Santiago",
+      "displayName": "Bisbal Santiago",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/bisbal-santiago.jpg",
+      "imageAlt": "Foto de Bisbal Santiago",
+      "profilePathCandidate": "/profesionales/bisbal-santiago/"
+    },
+    {
+      "id": "bochoeyer-martin",
+      "name": "Bochoeyer Martín",
+      "displayName": "Bochoeyer Martín",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/bochoeyer-martin.jpg",
+      "imageAlt": "Foto de Bochoeyer Martín",
+      "profilePathCandidate": "/profesionales/bochoeyer-martin/"
+    },
+    {
+      "id": "bonzi-maria-sol",
+      "name": "Bonzi María Sol",
+      "displayName": "Bonzi María Sol",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/bonzi-maria-sol.jpg",
+      "imageAlt": "Foto de Bonzi María Sol",
+      "profilePathCandidate": "/profesionales/bonzi-maria-sol/"
+    },
+    {
+      "id": "brienza-luna",
+      "name": "Brienza Luna",
+      "displayName": "Brienza Luna",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/brienza-luna.jpg",
+      "imageAlt": "Foto de Brienza Luna",
+      "profilePathCandidate": "/profesionales/brienza-luna/"
+    },
+    {
+      "id": "bruzone-hugo-n-l",
+      "name": "Bruzone Hugo N. L.",
+      "displayName": "Bruzone Hugo N. L.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "comite-ejecutivo",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": true,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/bruzone-hugo-n-l.jpg",
+      "imageAlt": "Foto de Bruzone Hugo N. L.",
+      "profilePathCandidate": "/profesionales/bruzone-hugo-n-l/"
+    },
+    {
+      "id": "buenaventura-exequiel-h",
+      "name": "Buenaventura Exequiel H.",
+      "displayName": "Buenaventura Exequiel H.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/buenaventura-exequiel-h.jpg",
+      "imageAlt": "Foto de Buenaventura Exequiel H.",
+      "profilePathCandidate": "/profesionales/buenaventura-exequiel-h/"
+    },
+    {
+      "id": "buracco-pablo-hernan",
+      "name": "Buracco Pablo Hernán",
+      "displayName": "Buracco Pablo Hernán",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/buracco-pablo-hernan.jpg",
+      "imageAlt": "Foto de Buracco Pablo Hernán",
+      "profilePathCandidate": "/profesionales/buracco-pablo-hernan/"
+    },
+    {
+      "id": "busico-giuliana",
+      "name": "Busico Giuliana",
+      "displayName": "Busico Giuliana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/busico-giuliana.jpg",
+      "imageAlt": "Foto de Busico Giuliana",
+      "profilePathCandidate": "/profesionales/busico-giuliana/"
+    },
+    {
+      "id": "bussola-lucia",
+      "name": "Bussola Lucía",
+      "displayName": "Bussola Lucía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/bussola-lucia.jpg",
+      "imageAlt": "Foto de Bussola Lucía",
+      "profilePathCandidate": "/profesionales/bussola-lucia/"
+    },
+    {
+      "id": "cabrera-anabella-laura",
+      "name": "Cabrera Anabella Laura",
+      "displayName": "Cabrera Anabella Laura",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/cabrera-anabella-laura.jpg",
+      "imageAlt": "Foto de Cabrera Anabella Laura",
+      "profilePathCandidate": "/profesionales/cabrera-anabella-laura/"
+    },
+    {
+      "id": "calabro-roberto-daniel",
+      "name": "Calabró Roberto Daniel",
+      "displayName": "Calabró Roberto Daniel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/calabro-roberto-daniel.jpg",
+      "imageAlt": "Foto de Calabró Roberto Daniel",
+      "profilePathCandidate": "/profesionales/calabro-roberto-daniel/"
+    },
+    {
+      "id": "calderon-javier",
+      "name": "Calderón Javier",
+      "displayName": "Calderón Javier",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/calderon-javier.jpg",
+      "imageAlt": "Foto de Calderón Javier",
+      "profilePathCandidate": "/profesionales/calderon-javier/"
+    },
+    {
+      "id": "calosso-maria-cecilia",
+      "name": "Calosso María Cecilia",
+      "displayName": "Calosso María Cecilia",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/calosso-maria-cecilia.jpg",
+      "imageAlt": "Foto de Calosso María Cecilia",
+      "profilePathCandidate": "/profesionales/calosso-maria-cecilia/"
+    },
+    {
+      "id": "camauer-francisco",
+      "name": "Camauer Francisco",
+      "displayName": "Camauer Francisco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/camauer-francisco.jpg",
+      "imageAlt": "Foto de Camauer Francisco",
+      "profilePathCandidate": "/profesionales/camauer-francisco/"
+    },
+    {
+      "id": "campolongo-juan",
+      "name": "Campolongo Juan",
+      "displayName": "Campolongo Juan",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/campolongo-juan.jpg",
+      "imageAlt": "Foto de Campolongo Juan",
+      "profilePathCandidate": "/profesionales/campolongo-juan/"
+    },
+    {
+      "id": "canzani-ramiro-javier",
+      "name": "Canzani Ramiro Javier",
+      "displayName": "Canzani Ramiro Javier",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/canzani-ramiro-javier.jpg",
+      "imageAlt": "Foto de Canzani Ramiro Javier",
+      "profilePathCandidate": "/profesionales/canzani-ramiro-javier/"
+    },
+    {
+      "id": "capoulat-german",
+      "name": "Capoulat Germán",
+      "displayName": "Capoulat Germán",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/capoulat-german.jpg",
+      "imageAlt": "Foto de Capoulat Germán",
+      "profilePathCandidate": "/profesionales/capoulat-german/"
+    },
+    {
+      "id": "capurro-ignacio-eduardo",
+      "name": "Capurro Ignacio Eduardo",
+      "displayName": "Capurro Ignacio Eduardo",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/capurro-ignacio-eduardo.jpg",
+      "imageAlt": "Foto de Capurro Ignacio Eduardo",
+      "profilePathCandidate": "/profesionales/capurro-ignacio-eduardo/"
+    },
+    {
+      "id": "carbajo-mariana",
+      "name": "Carbajo Mariana",
+      "displayName": "Carbajo Mariana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/carbajo-mariana.jpg",
+      "imageAlt": "Foto de Carbajo Mariana",
+      "profilePathCandidate": "/profesionales/carbajo-mariana/"
+    },
+    {
+      "id": "cartolano-carolina-belen",
+      "name": "Cartolano Carolina Belén",
+      "displayName": "Cartolano Carolina Belén",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/cartolano-carolina-belen.jpg",
+      "imageAlt": "Foto de Cartolano Carolina Belén",
+      "profilePathCandidate": "/profesionales/cartolano-carolina-belen/"
+    },
+    {
+      "id": "castello-ezequiel",
+      "name": "Castelló Ezequiel",
+      "displayName": "Castelló Ezequiel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/castello-ezequiel.jpg",
+      "imageAlt": "Foto de Castelló Ezequiel",
+      "profilePathCandidate": "/profesionales/castello-ezequiel/"
+    },
+    {
+      "id": "cattaneo-dolores",
+      "name": "Cattaneo Dolores",
+      "displayName": "Cattaneo Dolores",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/cattaneo-dolores.jpg",
+      "imageAlt": "Foto de Cattaneo Dolores",
+      "profilePathCandidate": "/profesionales/cattaneo-dolores/"
+    },
+    {
+      "id": "cleti-santiago",
+      "name": "Cleti Santiago",
+      "displayName": "Cleti Santiago",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/cleti-santiago.jpg",
+      "imageAlt": "Foto de Cleti Santiago",
+      "profilePathCandidate": "/profesionales/cleti-santiago/"
+    },
+    {
+      "id": "coccaro-guadalupe",
+      "name": "Cóccaro Guadalupe",
+      "displayName": "Cóccaro Guadalupe",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/coccaro-guadalupe.jpg",
+      "imageAlt": "Foto de Cóccaro Guadalupe",
+      "profilePathCandidate": "/profesionales/coccaro-guadalupe/"
+    },
+    {
+      "id": "constant-joan",
+      "name": "Constant Joan",
+      "displayName": "Constant Joan",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/constant-joan.jpg",
+      "imageAlt": "Foto de Constant Joan",
+      "profilePathCandidate": "/profesionales/constant-joan/"
+    },
+    {
+      "id": "crimer-pablo",
+      "name": "Crimer Pablo",
+      "displayName": "Crimer Pablo",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/crimer-pablo.jpg",
+      "imageAlt": "Foto de Crimer Pablo",
+      "profilePathCandidate": "/profesionales/crimer-pablo/"
+    },
+    {
+      "id": "cuenca-maira-alejandra",
+      "name": "Cuenca Maira Alejandra",
+      "displayName": "Cuenca Maira Alejandra",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/cuenca-maira-alejandra.jpg",
+      "imageAlt": "Foto de Cuenca Maira Alejandra",
+      "profilePathCandidate": "/profesionales/cuenca-maira-alejandra/"
+    },
+    {
+      "id": "de-felipe-carolina",
+      "name": "de Felipe Carolina",
+      "displayName": "de Felipe Carolina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/de-felipe-carolina.jpg",
+      "imageAlt": "Foto de de Felipe Carolina",
+      "profilePathCandidate": "/profesionales/de-felipe-carolina/"
+    },
+    {
+      "id": "de-kemmeter-carlos-a",
+      "name": "De Kemmeter Carlos A.",
+      "displayName": "De Kemmeter Carlos A.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/de-kemmeter-carlos-a.jpg",
+      "imageAlt": "Foto de De Kemmeter Carlos A.",
+      "profilePathCandidate": "/profesionales/de-kemmeter-carlos-a/"
+    },
+    {
+      "id": "de-la-torre-josefina",
+      "name": "De La Torre Josefina",
+      "displayName": "De La Torre Josefina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/de-la-torre-josefina.jpg",
+      "imageAlt": "Foto de De La Torre Josefina",
+      "profilePathCandidate": "/profesionales/de-la-torre-josefina/"
+    },
+    {
+      "id": "de-luca-lucia",
+      "name": "De Luca Lucía",
+      "displayName": "De Luca Lucía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/de-luca-lucia.jpg",
+      "imageAlt": "Foto de De Luca Lucía",
+      "profilePathCandidate": "/profesionales/de-luca-lucia/"
+    },
+    {
+      "id": "de-vincentis-giuliana-soledad",
+      "name": "De Vincentis Giuliana Soledad",
+      "displayName": "De Vincentis Giuliana Soledad",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/de-vincentis-giuliana-soledad.jpg",
+      "imageAlt": "Foto de De Vincentis Giuliana Soledad",
+      "profilePathCandidate": "/profesionales/de-vincentis-giuliana-soledad/"
+    },
+    {
+      "id": "dulce-nicolas",
+      "name": "Dulce Nicolás",
+      "displayName": "Dulce Nicolás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/dulce-nicolas.jpg",
+      "imageAlt": "Foto de Dulce Nicolás",
+      "profilePathCandidate": "/profesionales/dulce-nicolas/"
+    },
+    {
+      "id": "el-chaer-youssef",
+      "name": "El Chaer Youssef",
+      "displayName": "El Chaer Youssef",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/el-chaer-youssef.jpg",
+      "imageAlt": "Foto de El Chaer Youssef",
+      "profilePathCandidate": "/profesionales/el-chaer-youssef/"
+    },
+    {
+      "id": "escasany-manuel-juan",
+      "name": "Escasany Manuel Juan",
+      "displayName": "Escasany Manuel Juan",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/escasany-manuel-juan.jpg",
+      "imageAlt": "Foto de Escasany Manuel Juan",
+      "profilePathCandidate": "/profesionales/escasany-manuel-juan/"
+    },
+    {
+      "id": "espinillo-nahuel-nehuen",
+      "name": "Espinillo Nahuel Nehuen",
+      "displayName": "Espinillo Nahuel Nehuen",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/espinillo-nahuel-nehuen.jpg",
+      "imageAlt": "Foto de Espinillo Nahuel Nehuen",
+      "profilePathCandidate": "/profesionales/espinillo-nahuel-nehuen/"
+    },
+    {
+      "id": "etchevehere-manuel",
+      "name": "Etchevehere Manuel",
+      "displayName": "Etchevehere Manuel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/etchevehere-manuel.jpg",
+      "imageAlt": "Foto de Etchevehere Manuel",
+      "profilePathCandidate": "/profesionales/etchevehere-manuel/"
+    },
+    {
+      "id": "falu-lucia",
+      "name": "Falú Lucía",
+      "displayName": "Falú Lucía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/falu-lucia.jpg",
+      "imageAlt": "Foto de Falú Lucía",
+      "profilePathCandidate": "/profesionales/falu-lucia/"
+    },
+    {
+      "id": "fernandez-bouzo-tomas",
+      "name": "Fernández Bouzo Tomás",
+      "displayName": "Fernández Bouzo Tomás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/fernandez-bouzo-tomas.jpg",
+      "imageAlt": "Foto de Fernández Bouzo Tomás",
+      "profilePathCandidate": "/profesionales/fernandez-bouzo-tomas/"
+    },
+    {
+      "id": "ficher-victoria",
+      "name": "Ficher Victoria",
+      "displayName": "Ficher Victoria",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ficher-victoria.jpg",
+      "imageAlt": "Foto de Ficher Victoria",
+      "profilePathCandidate": "/profesionales/ficher-victoria/"
+    },
+    {
+      "id": "funes-de-rioja-daniel",
+      "name": "Funes de Rioja Daniel",
+      "displayName": "Funes de Rioja Daniel",
+      "role": "Abogado - Socio Fundador",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/funes-de-rioja-daniel.jpg",
+      "imageAlt": "Foto de Funes de Rioja Daniel",
+      "profilePathCandidate": "/profesionales/funes-de-rioja-daniel/"
+    },
+    {
+      "id": "funes-de-rioja-florencia",
+      "name": "Funes de Rioja Florencia",
+      "displayName": "Funes de Rioja Florencia",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/funes-de-rioja-florencia.jpg",
+      "imageAlt": "Foto de Funes de Rioja Florencia",
+      "profilePathCandidate": "/profesionales/funes-de-rioja-florencia/"
+    },
+    {
+      "id": "funes-de-rioja-ignacio",
+      "name": "Funes de Rioja Ignacio",
+      "displayName": "Funes de Rioja Ignacio",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "comite-ejecutivo",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": true,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/funes-de-rioja-ignacio.jpg",
+      "imageAlt": "Foto de Funes de Rioja Ignacio",
+      "profilePathCandidate": "/profesionales/funes-de-rioja-ignacio/"
+    },
+    {
+      "id": "funes-de-rioja-rodrigo",
+      "name": "Funes de Rioja Rodrigo",
+      "displayName": "Funes de Rioja Rodrigo",
+      "role": "MBA",
+      "categories": [
+        "profesionales",
+        "comite-ejecutivo",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": true,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/funes-de-rioja-rodrigo.jpg",
+      "imageAlt": "Foto de Funes de Rioja Rodrigo",
+      "profilePathCandidate": "/profesionales/funes-de-rioja-rodrigo/"
+    },
+    {
+      "id": "galeano-mercedes",
+      "name": "Galeano Mercedes",
+      "displayName": "Galeano Mercedes",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/galeano-mercedes.jpg",
+      "imageAlt": "Foto de Galeano Mercedes",
+      "profilePathCandidate": "/profesionales/galeano-mercedes/"
+    },
+    {
+      "id": "gandini-lorena",
+      "name": "Gandini Lorena",
+      "displayName": "Gandini Lorena",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gandini-lorena.jpg",
+      "imageAlt": "Foto de Gandini Lorena",
+      "profilePathCandidate": "/profesionales/gandini-lorena/"
+    },
+    {
+      "id": "gelmi-comaleras-francisco",
+      "name": "Gelmi Comaleras Francisco",
+      "displayName": "Gelmi Comaleras Francisco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gelmi-comaleras-francisco.jpg",
+      "imageAlt": "Foto de Gelmi Comaleras Francisco",
+      "profilePathCandidate": "/profesionales/gelmi-comaleras-francisco/"
+    },
+    {
+      "id": "genesio-manuela",
+      "name": "Genesio Manuela",
+      "displayName": "Genesio Manuela",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/genesio-manuela.jpg",
+      "imageAlt": "Foto de Genesio Manuela",
+      "profilePathCandidate": "/profesionales/genesio-manuela/"
+    },
+    {
+      "id": "gette-birolo-agustina",
+      "name": "Gette Birolo Agustina",
+      "displayName": "Gette Birolo Agustina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gette-birolo-agustina.jpg",
+      "imageAlt": "Foto de Gette Birolo Agustina",
+      "profilePathCandidate": "/profesionales/gette-birolo-agustina/"
+    },
+    {
+      "id": "gherardi-matias",
+      "name": "Gherardi Matías",
+      "displayName": "Gherardi Matías",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gherardi-matias.jpg",
+      "imageAlt": "Foto de Gherardi Matías",
+      "profilePathCandidate": "/profesionales/gherardi-matias/"
+    },
+    {
+      "id": "gomez-leiva-francisco",
+      "name": "Gómez Leiva Francisco",
+      "displayName": "Gómez Leiva Francisco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gomez-leiva-francisco.jpg",
+      "imageAlt": "Foto de Gómez Leiva Francisco",
+      "profilePathCandidate": "/profesionales/gomez-leiva-francisco/"
+    },
+    {
+      "id": "gonzalez-schinca-lautaro",
+      "name": "Gonzalez Schinca Lautaro",
+      "displayName": "Gonzalez Schinca Lautaro",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gonzalez-schinca-lautaro.jpg",
+      "imageAlt": "Foto de Gonzalez Schinca Lautaro",
+      "profilePathCandidate": "/profesionales/gonzalez-schinca-lautaro/"
+    },
+    {
+      "id": "guerra-leonardo-ruben",
+      "name": "Guerra Leonardo Rubén",
+      "displayName": "Guerra Leonardo Rubén",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": null,
+      "imageAlt": "Foto de Guerra Leonardo Rubén",
+      "profilePathCandidate": "/profesionales/guerra-leonardo-ruben/"
+    },
+    {
+      "id": "guevara-lynch-sofia",
+      "name": "Guevara Lynch Sofía",
+      "displayName": "Guevara Lynch Sofía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/guevara-lynch-sofia.jpg",
+      "imageAlt": "Foto de Guevara Lynch Sofía",
+      "profilePathCandidate": "/profesionales/guevara-lynch-sofia/"
+    },
+    {
+      "id": "gulias-maria",
+      "name": "Gulias María",
+      "displayName": "Gulias María",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/gulias-maria.jpg",
+      "imageAlt": "Foto de Gulias María",
+      "profilePathCandidate": "/profesionales/gulias-maria/"
+    },
+    {
+      "id": "haas-marco",
+      "name": "Haas Marco",
+      "displayName": "Haas Marco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/haas-marco.jpg",
+      "imageAlt": "Foto de Haas Marco",
+      "profilePathCandidate": "/profesionales/haas-marco/"
+    },
+    {
+      "id": "herrero-anzorena-tomas",
+      "name": "Herrero Anzorena Tomás",
+      "displayName": "Herrero Anzorena Tomás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/herrero-anzorena-tomas.jpg",
+      "imageAlt": "Foto de Herrero Anzorena Tomás",
+      "profilePathCandidate": "/profesionales/herrero-anzorena-tomas/"
+    },
+    {
+      "id": "itzcovich-mila",
+      "name": "Itzcovich Mila",
+      "displayName": "Itzcovich Mila",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/itzcovich-mila.jpg",
+      "imageAlt": "Foto de Itzcovich Mila",
+      "profilePathCandidate": "/profesionales/itzcovich-mila/"
+    },
+    {
+      "id": "jorge-guillermo",
+      "name": "Jorge Guillermo",
+      "displayName": "Jorge Guillermo",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/jorge-guillermo.jpg",
+      "imageAlt": "Foto de Jorge Guillermo",
+      "profilePathCandidate": "/profesionales/jorge-guillermo/"
+    },
+    {
+      "id": "kusa-liban-a",
+      "name": "Kusa Liban A.",
+      "displayName": "Kusa Liban A.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "comite-ejecutivo",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": true,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/kusa-liban-a.jpg",
+      "imageAlt": "Foto de Kusa Liban A.",
+      "profilePathCandidate": "/profesionales/kusa-liban-a/"
+    },
+    {
+      "id": "lanus-de-la-serna-agustina",
+      "name": "Lanus de la Serna Agustina",
+      "displayName": "Lanus de la Serna Agustina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lanus-de-la-serna-agustina.jpg",
+      "imageAlt": "Foto de Lanus de la Serna Agustina",
+      "profilePathCandidate": "/profesionales/lanus-de-la-serna-agustina/"
+    },
+    {
+      "id": "lapenta-macarena",
+      "name": "Lapenta Macarena",
+      "displayName": "Lapenta Macarena",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lapenta-macarena.jpg",
+      "imageAlt": "Foto de Lapenta Macarena",
+      "profilePathCandidate": "/profesionales/lapenta-macarena/"
+    },
+    {
+      "id": "lavaque-mariana",
+      "name": "Lavaque Mariana",
+      "displayName": "Lavaque Mariana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lavaque-mariana.jpg",
+      "imageAlt": "Foto de Lavaque Mariana",
+      "profilePathCandidate": "/profesionales/lavaque-mariana/"
+    },
+    {
+      "id": "lipovetzky-ezequiel",
+      "name": "Lipovetzky Ezequiel",
+      "displayName": "Lipovetzky Ezequiel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lipovetzky-ezequiel.jpg",
+      "imageAlt": "Foto de Lipovetzky Ezequiel",
+      "profilePathCandidate": "/profesionales/lipovetzky-ezequiel/"
+    },
+    {
+      "id": "lombardi-carlos-e",
+      "name": "Lombardi Carlos E.",
+      "displayName": "Lombardi Carlos E.",
+      "role": "Abogado - Socio Fundador",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lombardi-carlos-e.jpg",
+      "imageAlt": "Foto de Lombardi Carlos E.",
+      "profilePathCandidate": "/profesionales/lombardi-carlos-e/"
+    },
+    {
+      "id": "lopez-figueroa-matias",
+      "name": "López Figueroa Matías",
+      "displayName": "López Figueroa Matías",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lopez-figueroa-matias.jpg",
+      "imageAlt": "Foto de López Figueroa Matías",
+      "profilePathCandidate": "/profesionales/lopez-figueroa-matias/"
+    },
+    {
+      "id": "lopez-carlos-alberto",
+      "name": "López Carlos Alberto",
+      "displayName": "López Carlos Alberto",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lopez-carlos-alberto.jpg",
+      "imageAlt": "Foto de López Carlos Alberto",
+      "profilePathCandidate": "/profesionales/lopez-carlos-alberto/"
+    },
+    {
+      "id": "lorenzo-benjamin",
+      "name": "Lorenzo Benjamín",
+      "displayName": "Lorenzo Benjamín",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lorenzo-benjamin.jpg",
+      "imageAlt": "Foto de Lorenzo Benjamín",
+      "profilePathCandidate": "/profesionales/lorenzo-benjamin/"
+    },
+    {
+      "id": "lozada-javier",
+      "name": "Lozada Javier",
+      "displayName": "Lozada Javier",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lozada-javier.jpg",
+      "imageAlt": "Foto de Lozada Javier",
+      "profilePathCandidate": "/profesionales/lozada-javier/"
+    },
+    {
+      "id": "lozano-gabriel",
+      "name": "Lozano Gabriel",
+      "displayName": "Lozano Gabriel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lozano-gabriel.jpg",
+      "imageAlt": "Foto de Lozano Gabriel",
+      "profilePathCandidate": "/profesionales/lozano-gabriel/"
+    },
+    {
+      "id": "lucena-maguire-ines",
+      "name": "Lucena Maguire Inés",
+      "displayName": "Lucena Maguire Inés",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lucena-maguire-ines.jpg",
+      "imageAlt": "Foto de Lucena Maguire Inés",
+      "profilePathCandidate": "/profesionales/lucena-maguire-ines/"
+    },
+    {
+      "id": "luchetti-mariano-l",
+      "name": "Luchetti Mariano L.",
+      "displayName": "Luchetti Mariano L.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/luchetti-mariano-l.jpg",
+      "imageAlt": "Foto de Luchetti Mariano L.",
+      "profilePathCandidate": "/profesionales/luchetti-mariano-l/"
+    },
+    {
+      "id": "ludovico-ana",
+      "name": "Ludovico Ana",
+      "displayName": "Ludovico Ana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ludovico-ana.jpg",
+      "imageAlt": "Foto de Ludovico Ana",
+      "profilePathCandidate": "/profesionales/ludovico-ana/"
+    },
+    {
+      "id": "lugren-cecilia-beatriz",
+      "name": "Lugren Cecilia Beatriz",
+      "displayName": "Lugren Cecilia Beatriz",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/lugren-cecilia-beatriz.jpg",
+      "imageAlt": "Foto de Lugren Cecilia Beatriz",
+      "profilePathCandidate": "/profesionales/lugren-cecilia-beatriz/"
+    },
+    {
+      "id": "luna-daiana-soledad",
+      "name": "Luna Daiana Soledad",
+      "displayName": "Luna Daiana Soledad",
+      "role": "Despachante de Aduana",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/luna-daiana-soledad.jpg",
+      "imageAlt": "Foto de Luna Daiana Soledad",
+      "profilePathCandidate": "/profesionales/luna-daiana-soledad/"
+    },
+    {
+      "id": "maksymczuk-felipe-enrique",
+      "name": "Maksymczuk Felipe Enrique",
+      "displayName": "Maksymczuk Felipe Enrique",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/maksymczuk-felipe-enrique.jpg",
+      "imageAlt": "Foto de Maksymczuk Felipe Enrique",
+      "profilePathCandidate": "/profesionales/maksymczuk-felipe-enrique/"
+    },
+    {
+      "id": "marconetto-sofia",
+      "name": "Marconetto Sofía",
+      "displayName": "Marconetto Sofía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/marconetto-sofia.jpg",
+      "imageAlt": "Foto de Marconetto Sofía",
+      "profilePathCandidate": "/profesionales/marconetto-sofia/"
+    },
+    {
+      "id": "marini-milagros",
+      "name": "Marini Milagros",
+      "displayName": "Marini Milagros",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/marini-milagros.jpg",
+      "imageAlt": "Foto de Marini Milagros",
+      "profilePathCandidate": "/profesionales/marini-milagros/"
+    },
+    {
+      "id": "martinez-nicolas",
+      "name": "Martínez Nicolás",
+      "displayName": "Martínez Nicolás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/martinez-nicolas.jpg",
+      "imageAlt": "Foto de Martínez Nicolás",
+      "profilePathCandidate": "/profesionales/martinez-nicolas/"
+    },
+    {
+      "id": "mayedonchi-juan-salvador",
+      "name": "Mayedonchi Juan Salvador",
+      "displayName": "Mayedonchi Juan Salvador",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mayedonchi-juan-salvador.jpg",
+      "imageAlt": "Foto de Mayedonchi Juan Salvador",
+      "profilePathCandidate": "/profesionales/mayedonchi-juan-salvador/"
+    },
+    {
+      "id": "mazza-manuel",
+      "name": "Mazza Manuel",
+      "displayName": "Mazza Manuel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mazza-manuel.jpg",
+      "imageAlt": "Foto de Mazza Manuel",
+      "profilePathCandidate": "/profesionales/mazza-manuel/"
+    },
+    {
+      "id": "mendez-fariza-agustin-nicolas",
+      "name": "Méndez Fariza Agustín Nicolás",
+      "displayName": "Méndez Fariza Agustín Nicolás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mendez-fariza-agustin-nicolas.jpg",
+      "imageAlt": "Foto de Méndez Fariza Agustín Nicolás",
+      "profilePathCandidate": "/profesionales/mendez-fariza-agustin-nicolas/"
+    },
+    {
+      "id": "mendioroz-francisco",
+      "name": "Mendióroz Francisco",
+      "displayName": "Mendióroz Francisco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mendioroz-francisco.jpg",
+      "imageAlt": "Foto de Mendióroz Francisco",
+      "profilePathCandidate": "/profesionales/mendioroz-francisco/"
+    },
+    {
+      "id": "minorini-lima-ignacio-j",
+      "name": "Minorini Lima Ignacio J.",
+      "displayName": "Minorini Lima Ignacio J.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/minorini-lima-ignacio-j.jpg",
+      "imageAlt": "Foto de Minorini Lima Ignacio J.",
+      "profilePathCandidate": "/profesionales/minorini-lima-ignacio-j/"
+    },
+    {
+      "id": "mompel-lucia",
+      "name": "Mompel Lucía",
+      "displayName": "Mompel Lucía",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mompel-lucia.jpg",
+      "imageAlt": "Foto de Mompel Lucía",
+      "profilePathCandidate": "/profesionales/mompel-lucia/"
+    },
+    {
+      "id": "montecchio-lucila",
+      "name": "Montecchio Lucila",
+      "displayName": "Montecchio Lucila",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/montecchio-lucila.jpg",
+      "imageAlt": "Foto de Montecchio Lucila",
+      "profilePathCandidate": "/profesionales/montecchio-lucila/"
+    },
+    {
+      "id": "mottl-mayra",
+      "name": "Mottl Mayra",
+      "displayName": "Mottl Mayra",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/mottl-mayra.jpg",
+      "imageAlt": "Foto de Mottl Mayra",
+      "profilePathCandidate": "/profesionales/mottl-mayra/"
+    },
+    {
+      "id": "muir-pablo",
+      "name": "Muir Pablo",
+      "displayName": "Muir Pablo",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/muir-pablo.jpg",
+      "imageAlt": "Foto de Muir Pablo",
+      "profilePathCandidate": "/profesionales/muir-pablo/"
+    },
+    {
+      "id": "muniz-leandro-fabian",
+      "name": "Muñiz Leandro Fabián",
+      "displayName": "Muñiz Leandro Fabián",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/muniz-leandro-fabian.jpg",
+      "imageAlt": "Foto de Muñiz Leandro Fabián",
+      "profilePathCandidate": "/profesionales/muniz-leandro-fabian/"
+    },
+    {
+      "id": "muse-maria-agustina",
+      "name": "Muse María Agustina",
+      "displayName": "Muse María Agustina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/muse-maria-agustina.jpg",
+      "imageAlt": "Foto de Muse María Agustina",
+      "profilePathCandidate": "/profesionales/muse-maria-agustina/"
+    },
+    {
+      "id": "nadal-victoria",
+      "name": "Nadal Victoria",
+      "displayName": "Nadal Victoria",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": null,
+      "imageAlt": "Foto de Nadal Victoria",
+      "profilePathCandidate": "/profesionales/nadal-victoria/"
+    },
+    {
+      "id": "necol-delfina",
+      "name": "Necol Delfina",
+      "displayName": "Necol Delfina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/necol-delfina.jpg",
+      "imageAlt": "Foto de Necol Delfina",
+      "profilePathCandidate": "/profesionales/necol-delfina/"
+    },
+    {
+      "id": "negro-victoria",
+      "name": "Negro Victoria",
+      "displayName": "Negro Victoria",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/negro-victoria.jpg",
+      "imageAlt": "Foto de Negro Victoria",
+      "profilePathCandidate": "/profesionales/negro-victoria/"
+    },
+    {
+      "id": "neustadt-mariana",
+      "name": "Neustadt Mariana",
+      "displayName": "Neustadt Mariana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/neustadt-mariana.jpg",
+      "imageAlt": "Foto de Neustadt Mariana",
+      "profilePathCandidate": "/profesionales/neustadt-mariana/"
+    },
+    {
+      "id": "nogueira-castellini-nicolas",
+      "name": "Nogueira Castellini Nicolás",
+      "displayName": "Nogueira Castellini Nicolás",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/nogueira-castellini-nicolas.jpg",
+      "imageAlt": "Foto de Nogueira Castellini Nicolás",
+      "profilePathCandidate": "/profesionales/nogueira-castellini-nicolas/"
+    },
+    {
+      "id": "olcese-manuel",
+      "name": "Olcese Manuel",
+      "displayName": "Olcese Manuel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/olcese-manuel.png",
+      "imageAlt": "Foto de Olcese Manuel",
+      "profilePathCandidate": "/profesionales/olcese-manuel/"
+    },
+    {
+      "id": "olmos-estanislao-h",
+      "name": "Olmos Estanislao H.",
+      "displayName": "Olmos Estanislao H.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/olmos-estanislao-h.jpg",
+      "imageAlt": "Foto de Olmos Estanislao H.",
+      "profilePathCandidate": "/profesionales/olmos-estanislao-h/"
+    },
+    {
+      "id": "pacini-mariano-martin",
+      "name": "Pacini Mariano Martín",
+      "displayName": "Pacini Mariano Martín",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/pacini-mariano-martin.jpg",
+      "imageAlt": "Foto de Pacini Mariano Martín",
+      "profilePathCandidate": "/profesionales/pacini-mariano-martin/"
+    },
+    {
+      "id": "pardo-damaso-a",
+      "name": "Pardo Dámaso A.",
+      "displayName": "Pardo Dámaso A.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/pardo-damaso-a.jpg",
+      "imageAlt": "Foto de Pardo Dámaso A.",
+      "profilePathCandidate": "/profesionales/pardo-damaso-a/"
+    },
+    {
+      "id": "paschetta-dolores",
+      "name": "Paschetta Dolores",
+      "displayName": "Paschetta Dolores",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/paschetta-dolores.jpg",
+      "imageAlt": "Foto de Paschetta Dolores",
+      "profilePathCandidate": "/profesionales/paschetta-dolores/"
+    },
+    {
+      "id": "perego-guillermo-fernando",
+      "name": "Perego Guillermo Fernando",
+      "displayName": "Perego Guillermo Fernando",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/perego-guillermo-fernando.jpg",
+      "imageAlt": "Foto de Perego Guillermo Fernando",
+      "profilePathCandidate": "/profesionales/perego-guillermo-fernando/"
+    },
+    {
+      "id": "perelsztein-alejandro",
+      "name": "Perelsztein Alejandro",
+      "displayName": "Perelsztein Alejandro",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/perelsztein-alejandro.jpg",
+      "imageAlt": "Foto de Perelsztein Alejandro",
+      "profilePathCandidate": "/profesionales/perelsztein-alejandro/"
+    },
+    {
+      "id": "pereyra-pagiari-sebastian",
+      "name": "Pereyra Pagiari Sebastián",
+      "displayName": "Pereyra Pagiari Sebastián",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/pereyra-pagiari-sebastian.jpg",
+      "imageAlt": "Foto de Pereyra Pagiari Sebastián",
+      "profilePathCandidate": "/profesionales/pereyra-pagiari-sebastian/"
+    },
+    {
+      "id": "perez-d-agosta-daniela-aldana",
+      "name": "Perez D' Agosta Daniela Aldana",
+      "displayName": "Perez D' Agosta Daniela Aldana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/perez-d-agosta-daniela-aldana.jpg",
+      "imageAlt": "Foto de Perez D' Agosta Daniela Aldana",
+      "profilePathCandidate": "/profesionales/perez-d-agosta-daniela-aldana/"
+    },
+    {
+      "id": "perrone-maria-marta",
+      "name": "Perrone María Marta",
+      "displayName": "Perrone María Marta",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/perrone-maria-marta.jpg",
+      "imageAlt": "Foto de Perrone María Marta",
+      "profilePathCandidate": "/profesionales/perrone-maria-marta/"
+    },
+    {
+      "id": "pineiro-josefina",
+      "name": "Piñeiro Josefina",
+      "displayName": "Piñeiro Josefina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/pineiro-josefina.jpg",
+      "imageAlt": "Foto de Piñeiro Josefina",
+      "profilePathCandidate": "/profesionales/pineiro-josefina/"
+    },
+    {
+      "id": "poliche-ramon-augusto",
+      "name": "Poliche Ramón Augusto",
+      "displayName": "Poliche Ramón Augusto",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/poliche-ramon-augusto.jpg",
+      "imageAlt": "Foto de Poliche Ramón Augusto",
+      "profilePathCandidate": "/profesionales/poliche-ramon-augusto/"
+    },
+    {
+      "id": "porcel-maria-del-mar",
+      "name": "Porcel María del Mar",
+      "displayName": "Porcel María del Mar",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/porcel-maria-del-mar.jpg",
+      "imageAlt": "Foto de Porcel María del Mar",
+      "profilePathCandidate": "/profesionales/porcel-maria-del-mar/"
+    },
+    {
+      "id": "puerta-basaldua-veronica",
+      "name": "Puerta Basaldua Verónica",
+      "displayName": "Puerta Basaldua Verónica",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/puerta-basaldua-veronica.jpg",
+      "imageAlt": "Foto de Puerta Basaldua Verónica",
+      "profilePathCandidate": "/profesionales/puerta-basaldua-veronica/"
+    },
+    {
+      "id": "pulzoni-martina",
+      "name": "Pulzoni Martina",
+      "displayName": "Pulzoni Martina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/pulzoni-martina.jpg",
+      "imageAlt": "Foto de Pulzoni Martina",
+      "profilePathCandidate": "/profesionales/pulzoni-martina/"
+    },
+    {
+      "id": "raffinetti-franco",
+      "name": "Raffinetti Franco",
+      "displayName": "Raffinetti Franco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/raffinetti-franco.jpg",
+      "imageAlt": "Foto de Raffinetti Franco",
+      "profilePathCandidate": "/profesionales/raffinetti-franco/"
+    },
+    {
+      "id": "ramirez-calvo-delfina",
+      "name": "Ramírez Calvo Delfina",
+      "displayName": "Ramírez Calvo Delfina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ramirez-calvo-delfina.jpg",
+      "imageAlt": "Foto de Ramírez Calvo Delfina",
+      "profilePathCandidate": "/profesionales/ramirez-calvo-delfina/"
+    },
+    {
+      "id": "ramirez-carlos-andres",
+      "name": "Ramírez Carlos Andrés",
+      "displayName": "Ramírez Carlos Andrés",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ramirez-carlos-andres.jpg",
+      "imageAlt": "Foto de Ramírez Carlos Andrés",
+      "profilePathCandidate": "/profesionales/ramirez-carlos-andres/"
+    },
+    {
+      "id": "raparo-faure-juan-franco",
+      "name": "Raparo Faure Juan Franco",
+      "displayName": "Raparo Faure Juan Franco",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/raparo-faure-juan-franco.jpg",
+      "imageAlt": "Foto de Raparo Faure Juan Franco",
+      "profilePathCandidate": "/profesionales/raparo-faure-juan-franco/"
+    },
+    {
+      "id": "rebolo-constanza",
+      "name": "Rebolo Constanza",
+      "displayName": "Rebolo Constanza",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rebolo-constanza.jpg",
+      "imageAlt": "Foto de Rebolo Constanza",
+      "profilePathCandidate": "/profesionales/rebolo-constanza/"
+    },
+    {
+      "id": "regue-facundo-alberto",
+      "name": "Regue Facundo Alberto",
+      "displayName": "Regue Facundo Alberto",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/regue-facundo-alberto.jpg",
+      "imageAlt": "Foto de Regue Facundo Alberto",
+      "profilePathCandidate": "/profesionales/regue-facundo-alberto/"
+    },
+    {
+      "id": "rey-daniela",
+      "name": "Rey Daniela",
+      "displayName": "Rey Daniela",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rey-daniela.jpg",
+      "imageAlt": "Foto de Rey Daniela",
+      "profilePathCandidate": "/profesionales/rey-daniela/"
+    },
+    {
+      "id": "ricasoli-selene-nerea",
+      "name": "Ricasoli Selene Nerea",
+      "displayName": "Ricasoli Selene Nerea",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ricasoli-selene-nerea.jpg",
+      "imageAlt": "Foto de Ricasoli Selene Nerea",
+      "profilePathCandidate": "/profesionales/ricasoli-selene-nerea/"
+    },
+    {
+      "id": "ridolfi-martina",
+      "name": "Ridolfi Martina",
+      "displayName": "Ridolfi Martina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ridolfi-martina.jpg",
+      "imageAlt": "Foto de Ridolfi Martina",
+      "profilePathCandidate": "/profesionales/ridolfi-martina/"
+    },
+    {
+      "id": "rocca-agustina",
+      "name": "Rocca Agustina",
+      "displayName": "Rocca Agustina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rocca-agustina.jpg",
+      "imageAlt": "Foto de Rocca Agustina",
+      "profilePathCandidate": "/profesionales/rocca-agustina/"
+    },
+    {
+      "id": "rodriguez-galli-javier-s",
+      "name": "Rodríguez Galli Javier S.",
+      "displayName": "Rodríguez Galli Javier S.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rodriguez-galli-javier-s.jpg",
+      "imageAlt": "Foto de Rodríguez Galli Javier S.",
+      "profilePathCandidate": "/profesionales/rodriguez-galli-javier-s/"
+    },
+    {
+      "id": "rodriguez-luciana",
+      "name": "Rodríguez Luciana",
+      "displayName": "Rodríguez Luciana",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rodriguez-luciana.jpg",
+      "imageAlt": "Foto de Rodríguez Luciana",
+      "profilePathCandidate": "/profesionales/rodriguez-luciana/"
+    },
+    {
+      "id": "rolon-macarena",
+      "name": "Rolón Macarena",
+      "displayName": "Rolón Macarena",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rolon-macarena.jpg",
+      "imageAlt": "Foto de Rolón Macarena",
+      "profilePathCandidate": "/profesionales/rolon-macarena/"
+    },
+    {
+      "id": "rolon-marcelo-daniel",
+      "name": "Rolón Marcelo Daniel",
+      "displayName": "Rolón Marcelo Daniel",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rolon-marcelo-daniel.jpg",
+      "imageAlt": "Foto de Rolón Marcelo Daniel",
+      "profilePathCandidate": "/profesionales/rolon-marcelo-daniel/"
+    },
+    {
+      "id": "romero-spitzner-esteban",
+      "name": "Romero Spitzner Esteban",
+      "displayName": "Romero Spitzner Esteban",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/romero-spitzner-esteban.jpg",
+      "imageAlt": "Foto de Romero Spitzner Esteban",
+      "profilePathCandidate": "/profesionales/romero-spitzner-esteban/"
+    },
+    {
+      "id": "rosatto-juan",
+      "name": "Rosatto Juan",
+      "displayName": "Rosatto Juan",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rosatto-juan.jpg",
+      "imageAlt": "Foto de Rosatto Juan",
+      "profilePathCandidate": "/profesionales/rosatto-juan/"
+    },
+    {
+      "id": "rosso-alba-lucas",
+      "name": "Rosso Alba Lucas",
+      "displayName": "Rosso Alba Lucas",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rosso-alba-lucas.jpg",
+      "imageAlt": "Foto de Rosso Alba Lucas",
+      "profilePathCandidate": "/profesionales/rosso-alba-lucas/"
+    },
+    {
+      "id": "rotman-carlos-m",
+      "name": "Rotman Carlos M.",
+      "displayName": "Rotman Carlos M.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rotman-carlos-m.jpg",
+      "imageAlt": "Foto de Rotman Carlos M.",
+      "profilePathCandidate": "/profesionales/rotman-carlos-m/"
+    },
+    {
+      "id": "rozina-ariel-fernando",
+      "name": "Rozina Ariel Fernando",
+      "displayName": "Rozina Ariel Fernando",
+      "role": "Despachante de Aduana",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rozina-ariel-fernando.jpg",
+      "imageAlt": "Foto de Rozina Ariel Fernando",
+      "profilePathCandidate": "/profesionales/rozina-ariel-fernando/"
+    },
+    {
+      "id": "ruffini-ana-veronica",
+      "name": "Ruffini Ana Verónica",
+      "displayName": "Ruffini Ana Verónica",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ruffini-ana-veronica.jpg",
+      "imageAlt": "Foto de Ruffini Ana Verónica",
+      "profilePathCandidate": "/profesionales/ruffini-ana-veronica/"
+    },
+    {
+      "id": "rufino-felipe",
+      "name": "Rufino Felipe",
+      "displayName": "Rufino Felipe",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/rufino-felipe.jpg",
+      "imageAlt": "Foto de Rufino Felipe",
+      "profilePathCandidate": "/profesionales/rufino-felipe/"
+    },
+    {
+      "id": "ruger-rocio-lorena",
+      "name": "Ruger Rocío Lorena",
+      "displayName": "Ruger Rocío Lorena",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/ruger-rocio-lorena.jpg",
+      "imageAlt": "Foto de Ruger Rocío Lorena",
+      "profilePathCandidate": "/profesionales/ruger-rocio-lorena/"
+    },
+    {
+      "id": "saccullo-federico",
+      "name": "Saccullo Federico",
+      "displayName": "Saccullo Federico",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/saccullo-federico.jpg",
+      "imageAlt": "Foto de Saccullo Federico",
+      "profilePathCandidate": "/profesionales/saccullo-federico/"
+    },
+    {
+      "id": "sanguinetti-celina",
+      "name": "Sanguinetti Celina",
+      "displayName": "Sanguinetti Celina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/sanguinetti-celina.jpg",
+      "imageAlt": "Foto de Sanguinetti Celina",
+      "profilePathCandidate": "/profesionales/sanguinetti-celina/"
+    },
+    {
+      "id": "santos-maria-eugenia",
+      "name": "Santos María Eugenia",
+      "displayName": "Santos María Eugenia",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/santos-maria-eugenia.jpg",
+      "imageAlt": "Foto de Santos María Eugenia",
+      "profilePathCandidate": "/profesionales/santos-maria-eugenia/"
+    },
+    {
+      "id": "sanz-felix-sofia",
+      "name": "Sanz Felix Sofía",
+      "displayName": "Sanz Felix Sofía",
+      "role": null,
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/sanz-felix-sofia.jpg",
+      "imageAlt": "Foto de Sanz Felix Sofía",
+      "profilePathCandidate": "/profesionales/sanz-felix-sofia/"
+    },
+    {
+      "id": "stafforini-franca",
+      "name": "Stafforini Franca",
+      "displayName": "Stafforini Franca",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/stafforini-franca.jpg",
+      "imageAlt": "Foto de Stafforini Franca",
+      "profilePathCandidate": "/profesionales/stafforini-franca/"
+    },
+    {
+      "id": "tagliaferro-lucila-laura",
+      "name": "Tagliaferro Lucila Laura",
+      "displayName": "Tagliaferro Lucila Laura",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/tagliaferro-lucila-laura.jpg",
+      "imageAlt": "Foto de Tagliaferro Lucila Laura",
+      "profilePathCandidate": "/profesionales/tagliaferro-lucila-laura/"
+    },
+    {
+      "id": "tarrio-malena",
+      "name": "Tarrío Malena",
+      "displayName": "Tarrío Malena",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/tarrio-malena.jpg",
+      "imageAlt": "Foto de Tarrío Malena",
+      "profilePathCandidate": "/profesionales/tarrio-malena/"
+    },
+    {
+      "id": "todeschi-daniela",
+      "name": "Todeschi Daniela",
+      "displayName": "Todeschi Daniela",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/todeschi-daniela.jpg",
+      "imageAlt": "Foto de Todeschi Daniela",
+      "profilePathCandidate": "/profesionales/todeschi-daniela/"
+    },
+    {
+      "id": "valdez-rocio",
+      "name": "Valdez Rocío",
+      "displayName": "Valdez Rocío",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/valdez-rocio.jpg",
+      "imageAlt": "Foto de Valdez Rocío",
+      "profilePathCandidate": "/profesionales/valdez-rocio/"
+    },
+    {
+      "id": "valencic-alojz",
+      "name": "Valencic Alojz",
+      "displayName": "Valencic Alojz",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/valencic-alojz.jpg",
+      "imageAlt": "Foto de Valencic Alojz",
+      "profilePathCandidate": "/profesionales/valencic-alojz/"
+    },
+    {
+      "id": "varona-milagros-victoria",
+      "name": "Varona Milagros Victoria",
+      "displayName": "Varona Milagros Victoria",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/varona-milagros-victoria.jpg",
+      "imageAlt": "Foto de Varona Milagros Victoria",
+      "profilePathCandidate": "/profesionales/varona-milagros-victoria/"
+    },
+    {
+      "id": "vazquez-leandro",
+      "name": "Vázquez Leandro",
+      "displayName": "Vázquez Leandro",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/vazquez-leandro.jpg",
+      "imageAlt": "Foto de Vázquez Leandro",
+      "profilePathCandidate": "/profesionales/vazquez-leandro/"
+    },
+    {
+      "id": "vedoya-sebastian-p",
+      "name": "Vedoya Sebastián P.",
+      "displayName": "Vedoya Sebastián P.",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/vedoya-sebastian-p.jpg",
+      "imageAlt": "Foto de Vedoya Sebastián P.",
+      "profilePathCandidate": "/profesionales/vedoya-sebastian-p/"
+    },
+    {
+      "id": "vicente-federico",
+      "name": "Vicente Federico",
+      "displayName": "Vicente Federico",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/vicente-federico.jpg",
+      "imageAlt": "Foto de Vicente Federico",
+      "profilePathCandidate": "/profesionales/vicente-federico/"
+    },
+    {
+      "id": "vilarino-gonzalo",
+      "name": "Vilariño Gonzalo",
+      "displayName": "Vilariño Gonzalo",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/vilarino-gonzalo.jpg",
+      "imageAlt": "Foto de Vilariño Gonzalo",
+      "profilePathCandidate": "/profesionales/vilarino-gonzalo/"
+    },
+    {
+      "id": "vinales-eduardo-juan",
+      "name": "Viñales Eduardo Juan",
+      "displayName": "Viñales Eduardo Juan",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/vinales-eduardo-juan.jpg",
+      "imageAlt": "Foto de Viñales Eduardo Juan",
+      "profilePathCandidate": "/profesionales/vinales-eduardo-juan/"
+    },
+    {
+      "id": "vitor-catalina",
+      "name": "Vitor Catalina",
+      "displayName": "Vitor Catalina",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/vitor-catalina.jpg",
+      "imageAlt": "Foto de Vitor Catalina",
+      "profilePathCandidate": "/profesionales/vitor-catalina/"
+    },
+    {
+      "id": "von-petery-lucrecia",
+      "name": "von Petery Lucrecia",
+      "displayName": "von Petery Lucrecia",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/von-petery-lucrecia.jpg",
+      "imageAlt": "Foto de von Petery Lucrecia",
+      "profilePathCandidate": "/profesionales/von-petery-lucrecia/"
+    },
+    {
+      "id": "waisten-quimey",
+      "name": "Waisten Quimey",
+      "displayName": "Waisten Quimey",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/waisten-quimey.jpg",
+      "imageAlt": "Foto de Waisten Quimey",
+      "profilePathCandidate": "/profesionales/waisten-quimey/"
+    },
+    {
+      "id": "winschel-maria-lucila",
+      "name": "Winschel María Lucila",
+      "displayName": "Winschel María Lucila",
+      "role": "Abogada",
+      "categories": [
+        "profesionales",
+        "lider-de-practica",
+        "directorio"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": true,
+      "profileUrl": null,
+      "image": "/professionals/winschel-maria-lucila.jpg",
+      "imageAlt": "Foto de Winschel María Lucila",
+      "profilePathCandidate": "/profesionales/winschel-maria-lucila/"
+    },
+    {
+      "id": "wouters-jael",
+      "name": "Wouters Jael",
+      "displayName": "Wouters Jael",
+      "role": "Asociada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/wouters-jael.jpg",
+      "imageAlt": "Foto de Wouters Jael",
+      "profilePathCandidate": "/profesionales/wouters-jael/"
+    },
+    {
+      "id": "yadikian-julieta",
+      "name": "Yadikian Julieta",
+      "displayName": "Yadikian Julieta",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/yadikian-julieta.jpg",
+      "imageAlt": "Foto de Yadikian Julieta",
+      "profilePathCandidate": "/profesionales/yadikian-julieta/"
+    },
+    {
+      "id": "yu-rocio",
+      "name": "Yu Rocío",
+      "displayName": "Yu Rocío",
+      "role": "Abogada",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/yu-rocio.jpg",
+      "imageAlt": "Foto de Yu Rocío",
+      "profilePathCandidate": "/profesionales/yu-rocio/"
+    },
+    {
+      "id": "yudica-bartels-maximiliano",
+      "name": "Yudica Bartels Maximiliano",
+      "displayName": "Yudica Bartels Maximiliano",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/yudica-bartels-maximiliano.jpg",
+      "imageAlt": "Foto de Yudica Bartels Maximiliano",
+      "profilePathCandidate": "/profesionales/yudica-bartels-maximiliano/"
+    },
+    {
+      "id": "zenklusen-jose-ignacio",
+      "name": "Zenklusen José Ignacio",
+      "displayName": "Zenklusen José Ignacio",
+      "role": "Abogado",
+      "categories": [
+        "profesionales"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": false,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/zenklusen-jose-ignacio.jpg",
+      "imageAlt": "Foto de Zenklusen José Ignacio",
+      "profilePathCandidate": "/profesionales/zenklusen-jose-ignacio/"
+    },
+    {
+      "id": "zocca-juan-antonio",
+      "name": "Zocca Juan Antonio",
+      "displayName": "Zocca Juan Antonio",
+      "role": "Abogado",
+      "categories": [
+        "profesionales",
+        "lider-de-practica"
+      ],
+      "isProfessional": true,
+      "isPracticeLeader": true,
+      "isConsejoAdministracion": false,
+      "isDirectorio": false,
+      "profileUrl": null,
+      "image": "/professionals/zocca-juan-antonio.jpg",
+      "imageAlt": "Foto de Zocca Juan Antonio",
+      "profilePathCandidate": "/profesionales/zocca-juan-antonio/"
+    }
+  ],
+  "categoriesMap": {
+    "profesionales": [
+      "aguilar-josue-antu",
+      "albinati-celina",
+      "alfaro-maria-victoria",
+      "angelico-florencia",
+      "arbeleche-sergio",
+      "areco-horacio-jose",
+      "arguello-bavio-ernesto-fidel",
+      "arraraz-luciana-ines",
+      "bacigalupo-maria-laura",
+      "balbi-santiago-pedro",
+      "baldino-sofia",
+      "barbieri-pablo-jose",
+      "barrientos-alejandro",
+      "basch-fernando",
+      "basualdo-martin",
+      "battaglia-analia-r",
+      "bazan-jose-maria",
+      "belusci-leandro-exequiel",
+      "beretervide-martin",
+      "bisbal-santiago",
+      "bochoeyer-martin",
+      "bonzi-maria-sol",
+      "brienza-luna",
+      "bruzone-hugo-n-l",
+      "buenaventura-exequiel-h",
+      "buracco-pablo-hernan",
+      "busico-giuliana",
+      "bussola-lucia",
+      "cabrera-anabella-laura",
+      "calabro-roberto-daniel",
+      "calderon-javier",
+      "calosso-maria-cecilia",
+      "camauer-francisco",
+      "campolongo-juan",
+      "canzani-ramiro-javier",
+      "capoulat-german",
+      "capurro-ignacio-eduardo",
+      "carbajo-mariana",
+      "cartolano-carolina-belen",
+      "castello-ezequiel",
+      "cattaneo-dolores",
+      "cleti-santiago",
+      "coccaro-guadalupe",
+      "constant-joan",
+      "crimer-pablo",
+      "cuenca-maira-alejandra",
+      "de-felipe-carolina",
+      "de-kemmeter-carlos-a",
+      "de-la-torre-josefina",
+      "de-luca-lucia",
+      "de-vincentis-giuliana-soledad",
+      "dulce-nicolas",
+      "el-chaer-youssef",
+      "escasany-manuel-juan",
+      "espinillo-nahuel-nehuen",
+      "etchevehere-manuel",
+      "falu-lucia",
+      "fernandez-bouzo-tomas",
+      "ficher-victoria",
+      "funes-de-rioja-daniel",
+      "funes-de-rioja-florencia",
+      "funes-de-rioja-ignacio",
+      "funes-de-rioja-rodrigo",
+      "galeano-mercedes",
+      "gandini-lorena",
+      "gelmi-comaleras-francisco",
+      "genesio-manuela",
+      "gette-birolo-agustina",
+      "gherardi-matias",
+      "gomez-leiva-francisco",
+      "gonzalez-schinca-lautaro",
+      "guerra-leonardo-ruben",
+      "guevara-lynch-sofia",
+      "gulias-maria",
+      "haas-marco",
+      "herrero-anzorena-tomas",
+      "itzcovich-mila",
+      "jorge-guillermo",
+      "kusa-liban-a",
+      "lanus-de-la-serna-agustina",
+      "lapenta-macarena",
+      "lavaque-mariana",
+      "lipovetzky-ezequiel",
+      "lombardi-carlos-e",
+      "lopez-figueroa-matias",
+      "lopez-carlos-alberto",
+      "lorenzo-benjamin",
+      "lozada-javier",
+      "lozano-gabriel",
+      "lucena-maguire-ines",
+      "luchetti-mariano-l",
+      "ludovico-ana",
+      "lugren-cecilia-beatriz",
+      "luna-daiana-soledad",
+      "maksymczuk-felipe-enrique",
+      "marconetto-sofia",
+      "marini-milagros",
+      "martinez-nicolas",
+      "mayedonchi-juan-salvador",
+      "mazza-manuel",
+      "mendez-fariza-agustin-nicolas",
+      "mendioroz-francisco",
+      "minorini-lima-ignacio-j",
+      "mompel-lucia",
+      "montecchio-lucila",
+      "mottl-mayra",
+      "muir-pablo",
+      "muniz-leandro-fabian",
+      "muse-maria-agustina",
+      "nadal-victoria",
+      "necol-delfina",
+      "negro-victoria",
+      "neustadt-mariana",
+      "nogueira-castellini-nicolas",
+      "olcese-manuel",
+      "olmos-estanislao-h",
+      "pacini-mariano-martin",
+      "pardo-damaso-a",
+      "paschetta-dolores",
+      "perego-guillermo-fernando",
+      "perelsztein-alejandro",
+      "pereyra-pagiari-sebastian",
+      "perez-d-agosta-daniela-aldana",
+      "perrone-maria-marta",
+      "pineiro-josefina",
+      "poliche-ramon-augusto",
+      "porcel-maria-del-mar",
+      "puerta-basaldua-veronica",
+      "pulzoni-martina",
+      "raffinetti-franco",
+      "ramirez-calvo-delfina",
+      "ramirez-carlos-andres",
+      "raparo-faure-juan-franco",
+      "rebolo-constanza",
+      "regue-facundo-alberto",
+      "rey-daniela",
+      "ricasoli-selene-nerea",
+      "ridolfi-martina",
+      "rocca-agustina",
+      "rodriguez-galli-javier-s",
+      "rodriguez-luciana",
+      "rolon-macarena",
+      "rolon-marcelo-daniel",
+      "romero-spitzner-esteban",
+      "rosatto-juan",
+      "rosso-alba-lucas",
+      "rotman-carlos-m",
+      "rozina-ariel-fernando",
+      "ruffini-ana-veronica",
+      "rufino-felipe",
+      "ruger-rocio-lorena",
+      "saccullo-federico",
+      "sanguinetti-celina",
+      "santos-maria-eugenia",
+      "sanz-felix-sofia",
+      "stafforini-franca",
+      "tagliaferro-lucila-laura",
+      "tarrio-malena",
+      "todeschi-daniela",
+      "valdez-rocio",
+      "valencic-alojz",
+      "varona-milagros-victoria",
+      "vazquez-leandro",
+      "vedoya-sebastian-p",
+      "vicente-federico",
+      "vilarino-gonzalo",
+      "vinales-eduardo-juan",
+      "vitor-catalina",
+      "von-petery-lucrecia",
+      "waisten-quimey",
+      "winschel-maria-lucila",
+      "wouters-jael",
+      "yadikian-julieta",
+      "yu-rocio",
+      "yudica-bartels-maximiliano",
+      "zenklusen-jose-ignacio",
+      "zocca-juan-antonio"
+    ],
+    "lider-de-practica": [
+      "angelico-florencia",
+      "arbeleche-sergio",
+      "areco-horacio-jose",
+      "bacigalupo-maria-laura",
+      "balbi-santiago-pedro",
+      "barbieri-pablo-jose",
+      "barrientos-alejandro",
+      "basch-fernando",
+      "basualdo-martin",
+      "battaglia-analia-r",
+      "bazan-jose-maria",
+      "belusci-leandro-exequiel",
+      "beretervide-martin",
+      "bruzone-hugo-n-l",
+      "buenaventura-exequiel-h",
+      "buracco-pablo-hernan",
+      "calabro-roberto-daniel",
+      "camauer-francisco",
+      "capoulat-german",
+      "capurro-ignacio-eduardo",
+      "crimer-pablo",
+      "dulce-nicolas",
+      "escasany-manuel-juan",
+      "funes-de-rioja-daniel",
+      "funes-de-rioja-florencia",
+      "funes-de-rioja-ignacio",
+      "jorge-guillermo",
+      "kusa-liban-a",
+      "lipovetzky-ezequiel",
+      "lombardi-carlos-e",
+      "lopez-figueroa-matias",
+      "lopez-carlos-alberto",
+      "lozano-gabriel",
+      "luchetti-mariano-l",
+      "minorini-lima-ignacio-j",
+      "muir-pablo",
+      "nogueira-castellini-nicolas",
+      "olmos-estanislao-h",
+      "pardo-damaso-a",
+      "perego-guillermo-fernando",
+      "perelsztein-alejandro",
+      "puerta-basaldua-veronica",
+      "ramirez-carlos-andres",
+      "rey-daniela",
+      "rodriguez-galli-javier-s",
+      "rolon-marcelo-daniel",
+      "rotman-carlos-m",
+      "santos-maria-eugenia",
+      "tagliaferro-lucila-laura",
+      "vedoya-sebastian-p",
+      "vinales-eduardo-juan",
+      "winschel-maria-lucila",
+      "zocca-juan-antonio"
+    ],
+    "comite-ejecutivo": [
+      "bruzone-hugo-n-l",
+      "funes-de-rioja-ignacio",
+      "funes-de-rioja-rodrigo",
+      "kusa-liban-a"
+    ],
+    "directorio": [
+      "bazan-jose-maria",
+      "bruzone-hugo-n-l",
+      "funes-de-rioja-florencia",
+      "funes-de-rioja-ignacio",
+      "funes-de-rioja-rodrigo",
+      "kusa-liban-a",
+      "luchetti-mariano-l",
+      "perego-guillermo-fernando",
+      "vinales-eduardo-juan",
+      "winschel-maria-lucila"
+    ]
+  }
+}

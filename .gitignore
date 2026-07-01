@@ -1,0 +1,7 @@
+node_modules
+.next
+.turbo
+qa-screenshots
+chrome-profile-cdp*
+*.log
+*.tsbuildinfo

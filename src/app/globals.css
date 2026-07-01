@@ -1,0 +1,497 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Fluid type + spacing tokens ─────────────────────────────────────────── */
+
+:root {
+  /* Design tokens from Figma */
+  --font-fraunces: Georgia, "Times New Roman", serif;
+  --font-poppins: "Segoe UI", system-ui, sans-serif;
+  --color-surface-default: #f7f5f2;
+  --color-navy-900: #071227;
+  --color-navy-500: #233465;
+  --color-text-inverse: #e8ecf4;
+  --color-text-muted: #c3cddb;
+  --color-text-light: #fbfaf8;
+  --color-border-default: #d4dae2;
+
+  /* Fluid inline padding — replaces hard-coded px-5 / md:px-[80px] */
+  --space-inline: 1rem;
+
+  /* Fluid section vertical rhythm */
+  --space-section: clamp(3.5rem, 6vw, 6rem);
+
+  /* Type scale (modular, mobile-first) */
+  --step--1: clamp(0.8rem,  0.77rem + 0.13vw, 0.875rem);
+  --step-0:  clamp(0.875rem, 0.84rem + 0.15vw, 0.9375rem);
+  --step-1:  clamp(1rem,    0.96rem + 0.22vw,  1.125rem);
+  --step-2:  clamp(1.125rem, 1rem + 0.55vw,    1.5rem);
+  --step-3:  clamp(1.5rem,  1.28rem + 0.95vw,  2rem);
+  --type-display: clamp(2.5rem, 2.02rem + 2.5vw, 4rem);
+  --type-section-title: 40px;
+  --type-card-title: 28px;
+  --step-4: var(--type-section-title);
+  --step-5: var(--type-display);
+}
+
+@media (min-width: 30rem) {
+  :root { --space-inline: 1.25rem; }
+}
+
+@media (min-width: 48rem) {
+  :root { --space-inline: 2rem; }
+}
+
+@media (min-width: 64rem) {
+  :root { --space-inline: 3rem; }
+}
+
+@media (min-width: 80rem) {
+  :root { --space-inline: 4rem; }
+}
+
+@media (min-width: 90rem) {
+  :root { --space-inline: 5rem; }
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-surface-default);
+    color: #1a1a2e;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid #233465;
+    outline-offset: 2px;
+  }
+
+  .font-fraunces {
+    font-variation-settings: "SOFT" 0, "WONK" 1;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply max-w-[1280px] mx-auto;
+    padding-inline: var(--space-inline);
+  }
+
+  .section-pad {
+    padding-block: var(--space-section);
+  }
+
+  .chip {
+    @apply inline-flex items-center px-3 py-1.5 text-xs font-medium rounded-sm border whitespace-nowrap;
+  }
+
+  .chip-light {
+    @apply chip border-[#d4dae2] text-[#1a1a2e] bg-transparent;
+  }
+
+  .chip-dark {
+    @apply chip border-white/30 text-white bg-transparent;
+  }
+
+  .cta-ghost {
+    @apply inline-flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-sm transition-colors;
+  }
+
+  .kicker {
+    @apply text-xs font-medium tracking-wider uppercase font-poppins;
+  }
+}
+
+@media (min-width: 64rem) {
+  #main-content > section {
+    min-height: 800px;
+  }
+}
+
+/* Prevent horizontal scroll — clip preserves sticky positioning */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* ── Logo brand container ───────────────────────────────────────────────── */
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  width: clamp(8rem, 16vw, 13rem);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.brand-logo > img,
+.brand-logo > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* ── Skip link ──────────────────────────────────────────────────────────── */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: #233465;
+  color: white;
+  z-index: 9999;
+  font-family: var(--font-poppins);
+  font-size: 0.875rem;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ── MethodSection responsive ──────────────────────────────────────────── */
+
+.method-outer {
+  height: auto;
+}
+
+.method-sticky {
+  position: static;
+}
+
+.method-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.method-sidebar {
+  width: 100%;
+}
+
+.method-nav {
+  display: none;
+}
+
+.method-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.method-card {
+  position: static;
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Desktop: restore sticky + absolute card stack */
+@media (min-width: 64rem) {
+  .method-outer {
+    height: calc(var(--method-n, 5) * 100dvh);
+  }
+
+  .method-sticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    min-height: 100dvh;
+    align-items: center;
+  }
+
+  .method-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(2.5rem, 5vw, 5rem);
+  }
+
+  .method-sidebar {
+    width: clamp(18rem, 36vw, 31rem);
+    flex-shrink: 0;
+  }
+
+  .method-nav {
+    display: block;
+  }
+
+  .method-cards {
+    flex-direction: unset;
+    gap: unset;
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    min-height: 31.25rem;
+  }
+
+  .method-card {
+    position: absolute;
+    inset: 0;
+    padding: 2.5rem;
+    gap: 2rem;
+    opacity: var(--method-opacity, 1) !important;
+    transform: translateY(var(--method-translate, 0)) !important;
+    pointer-events: var(--method-events, auto) !important;
+  }
+}
+
+/* ── Keyframes ─────────────────────────────────────────────────────────── */
+
+@keyframes heroReveal {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroBajada {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes tickerScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes panelIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes chipIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slowPan {
+  from { transform: scale(1.04) translateX(0); }
+  to   { transform: scale(1.04) translateX(-1.5%); }
+}
+
+@keyframes revealLine {
+  from { transform: scaleX(0); opacity: 0.35; }
+  to   { transform: scaleX(1); opacity: 1; }
+}
+
+/* ── Animation utilities ────────────────────────────────────────────────── */
+
+.animate-hero-eyebrow {
+  animation: heroBajada 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
+}
+
+.animate-hero-title {
+  animation: heroReveal 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+
+.animate-hero-bajada {
+  animation: heroBajada 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
+}
+
+/* Disable entrance animations on mobile — reduces jank on low-end devices */
+@media (max-width: 47.99rem) {
+  .animate-hero-eyebrow,
+  .animate-hero-title,
+  .animate-hero-bajada {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Newsfeed ticker */
+.ticker-track {
+  animation: tickerScroll 40s linear infinite;
+}
+
+.ticker-wrap:hover .ticker-track,
+.ticker-wrap:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+
+/* Pause ticker on mobile — saves battery, no real benefit at 390px */
+@media (max-width: 47.99rem) {
+  .ticker-track {
+    animation-duration: 20s;
+  }
+}
+
+/* Sector panel reveal */
+.animate-panel-in {
+  animation: panelIn 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-chip-in {
+  animation: chipIn 0.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Practice areas background slow pan */
+.animate-slow-pan {
+  animation: slowPan 20s ease-in-out infinite alternate;
+}
+
+.reveal-base {
+  will-change: transform, opacity, clip-path;
+  transform-origin: left center;
+}
+
+.reveal-stagger > * {
+  transition-property: opacity, transform, clip-path;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  transition-duration: 500ms;
+  transition-delay: var(--reveal-stagger-delay, 0ms);
+}
+
+.reveal-stagger[data-visible="false"] > * {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+.reveal-stagger[data-visible="true"] > * {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-line {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.reveal-line[data-visible="true"] {
+  animation: revealLine 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.reveal-line[data-visible="false"] {
+  animation: none;
+  opacity: 0.35;
+}
+
+.reveal-chip {
+  transition-duration: 380ms;
+}
+
+.reveal-metric {
+  transition-duration: 450ms;
+}
+
+/* ── Header nav underline ───────────────────────────────────────────────── */
+
+.nav-underline {
+  position: relative;
+}
+
+.nav-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+  right: 6px;
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.5;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nav-underline:hover::after {
+  transform: scaleX(1);
+}
+
+/* ── Footer newsletter ink line ─────────────────────────────────────────── */
+
+.newsletter-wrap {
+  position: relative;
+}
+
+.newsletter-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e8ecf4;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.newsletter-wrap:focus-within::after {
+  transform: scaleX(1);
+}
+
+.send-btn {
+  transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.newsletter-wrap:focus-within .send-btn {
+  transform: translateX(2px);
+}
+
+/* ── Reduced motion overrides — must come last ─────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .ticker-track,
+  .animate-slow-pan,
+  .card-lift,
+  .animate-chip-in,
+  .animate-panel-in,
+  .reveal-base,
+  .reveal-stagger > *,
+  .reveal-line {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .reveal-base,
+  .reveal-stagger > *,
+  .reveal-line {
+    opacity: 1 !important;
+    clip-path: none !important;
+  }
+
+  .method-card {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media (min-width: 64rem) {
+  h2[class*="max-w-"] {
+    max-width: 600px;
+  }
+}

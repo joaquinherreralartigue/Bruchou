@@ -1,0 +1,324 @@
+{
+  "sectoresEstrategicos": {
+    "section": {
+      "eyebrow": "Sectores estratégicos",
+      "title": "Sectores estratégicos. Mirada integral.",
+      "description": "Trabajamos en sectores donde inversión, regulación, capital y operación se cruzan con decisiones de alto impacto.",
+      "cta": "Explorar sectores estratégicos"
+    },
+    "items": [
+      {
+        "id": "energia-recursos-infraestructura",
+        "title": "Energía, recursos naturales e infraestructura",
+        "grouping": [
+          "energía",
+          "petróleo y gas",
+          "minería",
+          "litio",
+          "infraestructura",
+          "proyectos",
+          "concesiones",
+          "financiamiento de obras",
+          "permisos",
+          "regulación",
+          "ambiente"
+        ],
+        "panelText": "Acompañamos proyectos intensivos en capital, infraestructura crítica y recursos estratégicos, integrando regulación, financiamiento, contratos, permisos, operación y relacionamiento institucional.",
+        "visibleSubsectors": [
+          "Energía",
+          "Petróleo y gas",
+          "Minería y litio",
+          "Infraestructura",
+          "Proyectos",
+          "Ambiente"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "trabajo-talento-relaciones-laborales",
+        "title": "Trabajo, talento y relaciones laborales",
+        "grouping": [
+          "relaciones laborales individuales y colectivas",
+          "negociación sindical",
+          "convenios colectivos y paritarias",
+          "reestructuraciones y reorganizaciones",
+          "procedimientos de crisis",
+          "litigios laborales complejos y masivos",
+          "auditorías laborales en operaciones corporativas",
+          "expatriados y movilidad internacional",
+          "seguridad social",
+          "cumplimiento laboral",
+          "políticas internas y gestión de riesgos",
+          "nuevas formas de trabajo y transformación organizacional"
+        ],
+        "panelText": "Acompañamos a empresas, cámaras empresarias, grupos económicos e inversores en decisiones laborales que impactan sobre la organización, la continuidad operativa, la reputación y la estrategia del negocio.",
+        "visibleSubsectors": [
+          "Relaciones laborales",
+          "Negociación colectiva",
+          "Reestructuraciones",
+          "Litigios laborales",
+          "Movilidad internacional",
+          "Cumplimiento laboral",
+          "Expatriados"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "capital-inversion-mercados-financieros",
+        "title": "Capital, inversión y mercados financieros",
+        "grouping": [
+          "servicios financieros",
+          "mercado de capitales",
+          "inversión extranjera",
+          "fondos",
+          "financiamiento",
+          "operaciones internacionales",
+          "banca",
+          "deuda",
+          "estructuración financiera"
+        ],
+        "panelText": "Acompañamos operaciones de inversión, financiamiento y mercado de capitales, integrando regulación financiera, estructuración contractual, emisión de deuda, fondos, banca y operaciones internacionales.",
+        "visibleSubsectors": [
+          "Servicios financieros",
+          "Mercado de capitales",
+          "Inversión extranjera",
+          "Fondos",
+          "Financiamiento",
+          "Operaciones internacionales"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "tecnologia-datos-innovacion",
+        "title": "Tecnología, datos e innovación",
+        "grouping": [
+          "tecnología",
+          "inteligencia artificial",
+          "datos",
+          "privacidad",
+          "telecomunicaciones",
+          "fintech",
+          "plataformas digitales",
+          "propiedad intelectual",
+          "startups"
+        ],
+        "panelText": "Acompañamos modelos de negocio intensivos en tecnología, datos e innovación, integrando privacidad, inteligencia artificial, plataformas digitales, fintech, telecomunicaciones, propiedad intelectual y regulación.",
+        "visibleSubsectors": [
+          "Tecnología",
+          "Datos",
+          "Inteligencia artificial",
+          "Fintech",
+          "Telecomunicaciones",
+          "Propiedad intelectual",
+          "Startups"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "salud-farma-ciencias-vida",
+        "title": "Salud, farma y ciencias de la vida",
+        "grouping": [
+          "industria farmacéutica",
+          "biotecnología",
+          "salud",
+          "tecnología médica",
+          "regulación sanitaria",
+          "datos sensibles",
+          "investigación",
+          "comercialización",
+          "operaciones reguladas"
+        ],
+        "panelText": "Acompañamos operaciones, investigación, comercialización y expansión en industrias de alta sensibilidad técnica y normativa, integrando regulación sanitaria, contratos, datos sensibles, cumplimiento y estrategia de negocio.",
+        "visibleSubsectors": [
+          "Farma",
+          "Biotecnología",
+          "Salud",
+          "Tecnología médica",
+          "Regulación sanitaria",
+          "Datos sensibles"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "agroindustria-alimentos-cadenas-productivas",
+        "title": "Agroindustria, alimentos y cadenas productivas",
+        "grouping": [
+          "agroindustria",
+          "alimentos",
+          "comercio exterior",
+          "producción",
+          "distribución",
+          "financiamiento",
+          "regulación",
+          "ambiente",
+          "cadena de valor"
+        ],
+        "panelText": "Acompañamos a empresas agroindustriales y alimentarias en decisiones vinculadas con producción, distribución, financiamiento, comercio exterior, regulación, ambiente y cadena de valor.",
+        "visibleSubsectors": [
+          "Agroindustria",
+          "Alimentos",
+          "Comercio exterior",
+          "Producción",
+          "Distribución",
+          "Financiamiento"
+        ],
+        "cta": "Ampliar"
+      },
+      {
+        "id": "sector-publico-regulacion-instituciones",
+        "title": "Sector público, regulación e instituciones",
+        "grouping": [
+          "regulación",
+          "contratación pública",
+          "concesiones",
+          "servicios públicos",
+          "financiamiento público",
+          "relación con autoridades",
+          "permisos",
+          "procedimientos administrativos",
+          "instituciones"
+        ],
+        "panelText": "Acompañamos asuntos donde la estrategia legal requiere articular regulación, contratación pública, concesiones, servicios públicos, financiamiento y relacionamiento institucional.",
+        "visibleSubsectors": [
+          "Regulación",
+          "Contratación pública",
+          "Concesiones",
+          "Servicios públicos",
+          "Financiamiento público",
+          "Relación con autoridades"
+        ],
+        "cta": "Ampliar"
+      }
+    ]
+  },
+  "areasDePractica": {
+    "section": {
+      "eyebrow": "Áreas y liderazgo",
+      "title": "Una mirada integrada sobre negocio, regulación y riesgo.",
+      "description": "Combinamos lectura sectorial, profundidad técnica y equipos multidisciplinarios para acompañar decisiones complejas en industrias, operaciones y escenarios críticos.",
+      "cta": "Explorar capacidades"
+    },
+    "megaMenuVisibleDivisions": [
+      "Corporativo",
+      "Finanzas",
+      "Regulación",
+      "Riesgo Empresario",
+      "Laboral",
+      "Industrias",
+      "Tecnología IP",
+      "Sustentabilidad"
+    ],
+    "officialPracticeAreas": [
+      "Aduanero & Comercio Exterior",
+      "Agronegocios",
+      "Ambiental",
+      "Asesoría en Fusiones & Adquisiciones",
+      "Compliance, Investigaciones & Derecho Penal Empresario",
+      "Conflictos Societarios",
+      "Defensa del consumidor",
+      "Derecho Administrativo & Regulatorio",
+      "Derecho Aeronáutico, Aeroportuario & Espacial",
+      "Derecho Bancario & Mercado de Capitales",
+      "Derecho Cambiario",
+      "Derecho Corporativo",
+      "Derecho de Defensa de la Competencia",
+      "Derecho Inmobiliario",
+      "Derecho Laboral Empresario",
+      "Derecho Marítimo",
+      "Derecho Migratorio",
+      "Derecho Societario & Gobierno Corporativo",
+      "Energía (Electricidad)",
+      "ESG: Acción Climática & Negocios Sustentables",
+      "Gestión de Riesgos",
+      "Impuestos",
+      "Life Sciences & Healthcare",
+      "Litigios, Arbitraje Internacional & Concursos y Quiebras",
+      "Minería",
+      "Petróleo y Gas / Transición Energética",
+      "Planificación Patrimonial",
+      "Propiedad Intelectual, Privacidad, Nuevas Tecnologías y Publicidad legal",
+      "Telecomunicaciones, Medios & Tecnología",
+      "Venture Capital"
+    ],
+    "officialFilters": {
+      "asesoria": [
+        "Aduanero & Comercio Exterior",
+        "Agronegocios",
+        "Ambiental",
+        "Asesoría en Fusiones & Adquisiciones",
+        "Compliance, Investigaciones & Derecho Penal Empresario",
+        "Conflictos Societarios",
+        "Defensa del consumidor",
+        "Derecho Administrativo & Regulatorio",
+        "Derecho Aeronáutico, Aeroportuario & Espacial",
+        "Derecho Bancario & Mercado de Capitales",
+        "Derecho Cambiario",
+        "Derecho Corporativo",
+        "Derecho de Defensa de la Competencia",
+        "Derecho Inmobiliario",
+        "Derecho Laboral Empresario",
+        "Derecho Marítimo",
+        "Derecho Migratorio",
+        "Derecho Societario & Gobierno Corporativo",
+        "Energía (Electricidad)",
+        "ESG: Acción Climática & Negocios Sustentables",
+        "Gestión de Riesgos",
+        "Impuestos",
+        "Life Sciences & Healthcare",
+        "Minería",
+        "Petróleo y Gas / Transición Energética",
+        "Planificación Patrimonial",
+        "Propiedad Intelectual, Privacidad, Nuevas Tecnologías y Publicidad legal",
+        "Telecomunicaciones, Medios & Tecnología",
+        "Venture Capital"
+      ],
+      "transaccional": [
+        "Agronegocios",
+        "Asesoría en Fusiones & Adquisiciones",
+        "Derecho Aeronáutico, Aeroportuario & Espacial",
+        "Derecho Bancario & Mercado de Capitales",
+        "Derecho Inmobiliario",
+        "Derecho Laboral Empresario",
+        "Energía (Electricidad)",
+        "ESG: Acción Climática & Negocios Sustentables",
+        "Impuestos",
+        "Life Sciences & Healthcare",
+        "Minería",
+        "Petróleo y Gas / Transición Energética",
+        "Telecomunicaciones, Medios & Tecnología"
+      ],
+      "litigios": [
+        "Compliance, Investigaciones & Derecho Penal Empresario",
+        "Conflictos Societarios",
+        "Defensa del consumidor",
+        "Derecho Administrativo & Regulatorio",
+        "Derecho Cambiario",
+        "Derecho Laboral Empresario",
+        "Derecho Marítimo",
+        "Gestión de Riesgos",
+        "Impuestos",
+        "Litigios, Arbitraje Internacional & Concursos y Quiebras",
+        "Propiedad Intelectual, Privacidad, Nuevas Tecnologías y Publicidad legal",
+        "Telecomunicaciones, Medios & Tecnología"
+      ]
+    },
+    "integratedFirmPanel": {
+      "center": "Firma integrada",
+      "concepts": [
+        {
+          "title": "Especialización",
+          "microcopy": "Profundidad técnica"
+        },
+        {
+          "title": "Experiencia sectorial",
+          "microcopy": "Mirada sectorial"
+        },
+        {
+          "title": "Coordinación multidisciplinaria",
+          "microcopy": "Coordinación entre capacidades"
+        }
+      ],
+      "closingLine": "Equipos diseñados por desafío, no por organigrama."
+    }
+  }
+}
