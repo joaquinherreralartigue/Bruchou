@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { withBasePath } from "@/lib/paths";
 
 const STEPS = [
   { number: "01", title: "Diagnóstico jurídico y sectorial" },
@@ -57,7 +58,7 @@ export default function MethodSectionSequential() {
         className="absolute inset-0 bg-[#0A1E37] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(8, 14, 24, 0.58), rgba(8, 14, 24, 0.78)), url("/insights-timeline.png")',
+            `linear-gradient(rgba(8, 14, 24, 0.58), rgba(8, 14, 24, 0.78)), url("${withBasePath("/insights-timeline.png")}")`,
         }}
         aria-hidden="true"
       />
@@ -94,7 +95,7 @@ export default function MethodSectionSequential() {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
                 backgroundImage:
-                'linear-gradient(90deg, rgba(20, 14, 10, 0.88) 0%, rgba(20, 14, 10, 0.82) 20%, rgba(20, 14, 10, 0.66) 48%, rgba(20, 14, 10, 0.76) 100%), url("/insights-timeline.png")',
+                `linear-gradient(90deg, rgba(20, 14, 10, 0.88) 0%, rgba(20, 14, 10, 0.82) 20%, rgba(20, 14, 10, 0.66) 48%, rgba(20, 14, 10, 0.76) 100%), url("${withBasePath("/insights-timeline.png")}")`,
             }}
             aria-hidden="true"
           />
